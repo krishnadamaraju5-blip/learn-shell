@@ -11,6 +11,6 @@ sleep 10
 END_TIME=$(date +%s)
 echo "End time of script is at : $END_TIME"
 
-TOTAL_TIME=s(($END_TIME-$START_TIME))
+TOTAL_TIME=$(($END_TIME-$START_TIME))
 
 echo "Total time taken by the script is at : $END_TIME seconds"
