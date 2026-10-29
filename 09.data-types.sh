@@ -6,3 +6,4 @@ var3=siva
 
 echo "$var1+$var2"
 echo "$(($var1+$var2))"
+echo "$(($var1+$var2+$var3))"
