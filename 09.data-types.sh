@@ -13,3 +13,12 @@ declare -i COUNT=5
 COUNT=COUNT+1
 
 echo " Count is: $COUNT"
+
+FRUITS=("Apple","Banana","Pappaya")  #This is called as an array
+
+echo "All Fruits: ${FRUITS[@]}"
+echo "First Fruits: ${FRUITS[1]}"
+
+name="Krishna Seshank D"
+
+echo "${name}amaraju"
