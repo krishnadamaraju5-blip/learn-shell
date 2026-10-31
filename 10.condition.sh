@@ -6,7 +6,7 @@ read marks
 if [ $marks -lt 33 ]; then
    echo "Fail"
 
-if [ $marks -lt 40 ]; then
+elif [ $marks -lt 40 ]; then
    echo "Third Class"
 
 elif [ $marks -lt 50 ]; then 
@@ -21,6 +21,3 @@ else
 fi 
 
 echo "END"
-
-
-
