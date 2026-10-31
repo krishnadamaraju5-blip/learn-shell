@@ -11,7 +11,7 @@ validate(){
     if [ $1 -ne 0 ]; then
     echo "${2}...is FAILED"
     else
-    echo "${1}...is SUCCESS"
+    echo "${2}...is SUCCESS"
     fi
 }
 
