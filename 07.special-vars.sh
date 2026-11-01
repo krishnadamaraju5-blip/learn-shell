@@ -5,7 +5,6 @@
 echo "All args passed to the script: $@"
 echo "All args passed to the script as word: $*"
 echo "Number of args passed to the script: $#"
-echo "${0}"
 echo "First variable passed: $1"
 echo "Script Name: $0"
 echo "Realpath $(realpath $0)"
