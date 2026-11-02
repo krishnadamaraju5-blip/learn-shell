@@ -17,6 +17,7 @@ validate(){
         exit 1
     else
         echo "${2}......success" | tee -a $logs_file
+    fi
 }
 
 
